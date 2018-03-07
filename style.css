@@ -1,5 +1,6 @@
 body {
     background-color: ghostwhite;
+    font-family: Arial;
 }
 
 #content {
@@ -7,4 +8,25 @@ body {
     margin: 10px auto;
     width: 450px;
     background-color: white;
+
+    max-height: 400px;
+    overflow: hidden;
+}
+
+#content.open {
+    max-height: 800px;
+}
+
+#button {
+    background-color: dodgerblue;
+    color: white;
+    margin: 10px auto;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    }
+
+#button a{
+    text-decoration: none;
+    color: white;
 }
